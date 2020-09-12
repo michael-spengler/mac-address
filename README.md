@@ -6,7 +6,7 @@
 
 ```ts
 
-import { getMac } from 'https://deno.land/x/macaddress@v1.0.0/get-mac-address.ts'
+import { getMac } from 'https://deno.land/x/macaddress@v1.0.1/get-mac-address.ts'
 
 console.log(await getMac())
 
@@ -16,7 +16,7 @@ console.log(await getMac())
 
 ```sh
 
-deno run --allow-run usage-example.ts
+deno run --allow-run https://deno.land/x/macaddress@v1.0.1/usage-example.ts
 
 ```
 
@@ -24,6 +24,6 @@ deno run --allow-run usage-example.ts
 
 ```sh
 
-deno test --allow-run test.ts
+deno test --allow-run https://deno.land/x/macaddress@v1.0.1/test.ts
 
 ```
