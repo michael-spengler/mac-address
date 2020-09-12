@@ -1,5 +1,5 @@
 import { fail } from "https://deno.land/std/testing/asserts.ts";
-import { getMac } from './get-mac-address.ts'
+import { getMac } from 'https://deno.land/x/macaddress@v1.0.0/get-mac-address.ts'
 
 Deno.test("get mac address", async (): Promise<void> => {
 

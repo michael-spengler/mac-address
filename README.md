@@ -1,11 +1,12 @@
-[![nest badge](https://nest.land/badge.svg)](https://nest.land/package/sleep)
+[![nest badge](https://nest.land/badge.svg)](https://nest.land/package/mac-address)
 
 # Mac Address
 
 ## Usage Example
 
 ```ts
-import { getMac } from './get-mac-address.ts'
+
+import { getMac } from 'https://deno.land/x/macaddress@v1.0.0/get-mac-address.ts'
 
 console.log(await getMac())
 
