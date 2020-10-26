@@ -2,7 +2,8 @@
   "name": "mac-address",
   "description": "Provides the mac address of the current device",
   "stable": true,
-  "repository": "https://github.com/michael-spengler/mac-address",
+  "homepage": "https://github.com/michael-spengler/mac-address",
+  "entry": "./mod.ts",
   "files": [
     "constants.ts",
     "get-mac-address.ts",
