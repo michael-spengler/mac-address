@@ -1,4 +1,4 @@
-import { exec } from 'https://cdn.depjs.com/exec@1.1.0/mod.ts'
+import { exec } from 'https://deno.land/x/exec@0.0.5/mod.ts'
 import { MAC_OSX_START_LINE, MAC_LINUX_START_LINE, MAC_RE, MAC_IP_RE, WIN_MAC_RE, WIN_IP_RE } from './constants.ts'
 
 export async function getMac(interfaceName?: string) {
